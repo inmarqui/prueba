@@ -1,5 +1,7 @@
 
-x=100
-y=log(x)
+using Plots
 
-print(y)
+x=LinRange(0,10,1000)
+y=x.^2
+
+plot(x,y)
